@@ -1,6 +1,5 @@
 package com.example.tanganan.orientationeventdemo;
 
-import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -51,19 +50,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             mOrientationEventListener.disable();//注销
             mTvAngle.setText("当前设备不支持手机旋转！");
-        }
-    }
-
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
-            Log.d(TAG, "onConfigurationChanged: "+"竖屏");
-            //TODO 竖屏处理
-
-        }else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
-            Log.d(TAG, "onConfigurationChanged: "+"竖屏");
-            //TODO 横屏处理
-
         }
     }
 
