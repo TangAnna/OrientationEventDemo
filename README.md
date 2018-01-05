@@ -1,2 +1,4 @@
 # OrientationEventDemo
 Android 根据OrientationEventListener获取设备的方向
+做有关视频的项目的时候会遇到横竖屏的问题，有很多种方法实现，OrientationEventListener是其中的一种方法
+
