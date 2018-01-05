@@ -1,0 +1,2 @@
+# OrientationEventDemo
+Android 根据OrientationEventListener获取设备的方向
