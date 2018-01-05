@@ -12,6 +12,7 @@ import android.widget.TextView;
  */
 public class MainActivity extends AppCompatActivity {
 
+
     private static final String TAG = "MainActivity";
     private TextView mTvOrientation, mTvAngle;
     private OrientationEventListener mOrientationEventListener;//方向事件监听器
