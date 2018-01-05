@@ -41,7 +41,7 @@
                 }
 <br/>得到了orientation，可以根据自己的需要判断设备的角度确定横竖屏，要记得在onDestroy()方法里面注销监听以免费电mOrientationEventListener.enable();
 <br/>_(此Demo是记录自己工作中的一些问题，如发现错误的地方请指教，谢谢!
-<br/>                                                                                   --（TangAnna   QQ:1101870076）)_
+--（TangAnna   QQ:1101870076）)_
     
 
 
